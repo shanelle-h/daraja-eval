@@ -1,6 +1,6 @@
 # Daraja & Kenya-DPA Eval: where frontier models slip on Kenyan fintech specifics
 
-> **TODO before submitting:** replace the single `<<VIDEO LINK>>` placeholder in section 2 with your real link, then delete this note.
+
 
 ## 1. Short description
 Domain: Kenyan fintech engineering and compliance (Safaricom M-Pesa Daraja APIs + the Kenya Data Protection Act 2019).
