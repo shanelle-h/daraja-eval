@@ -1,0 +1,40 @@
+# --- Secrets (never commit these) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials*.json
+
+# --- Upload script state (local only) ---
+sections.json
+.upload_state.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+
+# --- Node (in case any tooling uses it) ---
+node_modules/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Build output, logs, submission zips ---
+dist/
+build/
+*.log
+*.zip
+daily_push.py

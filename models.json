@@ -1,0 +1,13 @@
+{
+  "_note": "Set ids to the exact model versions you test. Entries whose id starts with REPLACE, or whose key is missing from .env, are skipped. send_temperature=false for models that reject temperature. 'extra' is merged into the request body. Any OpenAI-compatible API works via provider=openai + base_url + key_env.",
+  "models": [
+    {"key": "gemini-3.8-flash", "provider": "google", "id": "gemini-3.8-flash", "enabled": true},
+    {"key": "groq-gpt-oss-120b", "provider": "openai", "id": "openai/gpt-oss-120b",
+     "base_url": "https://api.groq.com/openai/v1", "key_env": "GROQ_API_KEY", "enabled": true},
+    {"key": "groq-qwen3.8-27b", "provider": "openai", "id": "qwen/qwen3.8-27b",
+     "base_url": "https://api.groq.com/openai/v1", "key_env": "GROQ_API_KEY", "enabled": true},
+    {"key": "claude-sonnet-5-5", "provider": "anthropic", "id": "claude-sonnet-5-5", "enabled": true},
+    {"key": "claude-opus-5-5", "provider": "anthropic", "id": "claude-opus-5-5", "enabled": true},
+    {"key": "claude-haiku-5-5", "provider": "anthropic", "id": "claude-haiku-5-5", "enabled": true}
+  ]
+}
