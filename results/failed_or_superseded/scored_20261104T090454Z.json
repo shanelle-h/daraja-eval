@@ -1,0 +1,18 @@
+[
+  {
+    "model_key": "gemini-2.5-flash",
+    "model_id": "gemini-2.5-flash",
+    "task_id": "T05",
+    "run_idx": 0,
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+    "parse_ok": false,
+    "fields": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "d": false
+    },
+    "score": 0.0,
+    "passed": false
+  }
+]

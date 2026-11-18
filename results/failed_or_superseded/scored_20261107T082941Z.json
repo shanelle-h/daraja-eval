@@ -1,0 +1,50 @@
+[
+  {
+    "model_key": "gemini-2.5-flash",
+    "model_id": "gemini-2.5-flash",
+    "task_id": "T05",
+    "run_idx": 0,
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+    "parse_ok": false,
+    "fields": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "d": false
+    },
+    "score": 0.0,
+    "passed": false
+  },
+  {
+    "model_key": "gemini-3.8-flash",
+    "model_id": "gemini-3.8-flash",
+    "task_id": "T05",
+    "run_idx": 0,
+    "error": null,
+    "parse_ok": true,
+    "fields": {
+      "a": true,
+      "b": true,
+      "c": true,
+      "d": true
+    },
+    "score": 1.0,
+    "passed": true
+  },
+  {
+    "model_key": "gemini-3.1-pro-preview",
+    "model_id": "gemini-3.1-pro-preview",
+    "task_id": "T05",
+    "run_idx": 0,
+    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent",
+    "parse_ok": false,
+    "fields": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "d": false
+    },
+    "score": 0.0,
+    "passed": false
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "model_key": "groq-gpt-oss-120b",
+    "model_id": "openai/gpt-oss-120b",
+    "task_id": "T05",
+    "run_idx": 0,
+    "error": null,
+    "parse_ok": true,
+    "fields": {
+      "a": false,
+      "b": true,
+      "c": true,
+      "d": true
+    },
+    "score": 0.75,
+    "passed": false
+  }
+]
