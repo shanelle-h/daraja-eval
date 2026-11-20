@@ -1,0 +1,44 @@
+[
+  {
+    "model_key": "gemini-3.8-flash",
+    "model_id": "gemini-3.8-flash",
+    "task_id": "T01",
+    "run_idx": 0,
+    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent",
+    "parse_ok": false,
+    "fields": {
+      "buggy_lines": false,
+      "callback_resultcode_json_type": false
+    },
+    "score": 0.0,
+    "passed": false
+  },
+  {
+    "model_key": "gemini-3.8-flash",
+    "model_id": "gemini-3.8-flash",
+    "task_id": "T01",
+    "run_idx": 1,
+    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent",
+    "parse_ok": false,
+    "fields": {
+      "buggy_lines": false,
+      "callback_resultcode_json_type": false
+    },
+    "score": 0.0,
+    "passed": false
+  },
+  {
+    "model_key": "gemini-3.8-flash",
+    "model_id": "gemini-3.8-flash",
+    "task_id": "T01",
+    "run_idx": 2,
+    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent",
+    "parse_ok": false,
+    "fields": {
+      "buggy_lines": false,
+      "callback_resultcode_json_type": false
+    },
+    "score": 0.0,
+    "passed": false
+  }
+]
